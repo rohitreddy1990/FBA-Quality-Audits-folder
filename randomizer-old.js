@@ -355,16 +355,18 @@ function randomizerAlgorithm_old(resolvedByAssociate, auditors, adHocTickets, cu
                             
                         }
 
-                        // Discard ticket if it's "Damage"
-                        if (ticket.rci === 'Damage Seller Coaching') {
-                            continue
-                        }
+                        
 
                         // Assign ticket to auditor
                         const rci = find("rci", ticket, associateTickets);
                         const associateSUP = resolvedByAssociate[associate]['SUP'];
                         const mapping = supToAuditorMap.get(associateSUP);
                         const auditor = getAuditorBasedOnCounter(objCounterForAuditors, mapping, rci, associateSUP);
+
+                        // Discard ticket if it's "Damage"
+                        if (rci === 'Damage Seller Coaching') {
+                            continue
+                        }
 
                        // If associate is the auditor, go to next associate
                         if (associate === auditor) {
@@ -623,12 +625,12 @@ function randomizerAlgorithm_old(resolvedByAssociate, auditors, adHocTickets, cu
        // const isSUP = supList.includes(auditor);
         const SUP = associateTickets['SUP'];
         const c = SUPRC.includes(rci) 
-        const AuditorInMapping = supToAuditorMap.get(SUP).includes(auditor);
+        //const AuditorInMapping = supToAuditorMap.get(SUP).includes(auditor);
        // console.log(associateTickets['SUP']);
 
-       if (c && auditor === "ssriyans") {
-        console.log(`Assigning ticket to ${auditor}`);
-       }
+    //    if (rci === "Size/Fit") {
+    //     console.log(`Size TT assgined`);
+    //    }
 
         // if (isSUP) { //add to the array only is SUP and rci as as defect / damage
             if (c /*&& AuditorInMapping*/) {
