@@ -547,22 +547,40 @@ function randomizerAlgorithm_old(resolvedByAssociate, auditors, adHocTickets, cu
         // }
 
         //using object as a counter
-        console.log(RC);
+       // console.log(RC);
 
-        if (anySUPLeft) {
-            for (const auditor in objCounterForAuditors) {
-                if (auditorList.includes(auditor) &&  supList.includes(auditor)) {
-                    if (auditor === "ssriyans") {
-                        console.log('Returning Auditor as SS');
-                       }
-                    return auditor
-                }
-            }
-        }
+        // if (anySUPLeft) {
+        //     for (const auditor in objCounterForAuditors) {
+        //         if (auditorList.includes(auditor) &&  supList.includes(auditor)) {
+        //             if (auditor === "ssriyans") {
+        //                 console.log('Returning Auditor as SS');
+        //                }
+        //             return auditor
+        //         }
+        //     }
+        // }
 
 
         //take the RC, return a SUP if rc is in the SUP list
         // return a auditor otherwise, ensure that the auditor is a AA, not in SUP list
+
+    if (SUPRC.includes(RC)) { // if RC is a SUP RC, return a SUP with the lowest audits
+        const lowestcount = Infinity;
+
+        for (const auditor in objCounterForAuditors) { 
+            // go over each SUP auditor            
+            if (supList.includes(auditor)) {
+                // ensure that the auditor is a SUP
+                // check the value for the SUP, remember the lowest value
+                if (objCounterForAuditors[auditor] < lowestcount) {
+                    lowestcount = objCounterForAuditors[auditor];
+                    selectedAuditor = auditor;
+                }
+            }
+        
+        }
+        return selectedAuditor;
+    }
 
 
          // this is return all SUPs as long as they are in the objCounterForAuditors. So if there are no SUPs in the objCounterForAuditors, it will return null
