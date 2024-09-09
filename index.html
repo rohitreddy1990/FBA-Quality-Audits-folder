@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📈</text></svg>">
+  <title>Team statistics</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <script src="settings.js" defer></script>
+  <script src="randomizer.js" defer></script>
+  <script src="randomizer-old.js" defer></script>
+  <script src="classes.js" defer></script>
+  <script src="utils.js" defer></script>
+  <script src="script.js" defer></script>
+  <!-- <script src="testing.js" defer></script> -->
+</head>
+
+<body>
+  <header>
+    <form class="search-form">
+      <div>
+        <label for="date-input">Date:</label>
+        <div>
+          <button class="move-date" direction="prev">&lt;</button>
+          <input type="date" id="date-input" name="date" required />
+          <button class="move-date" direction="next">&gt;</button>
+          <div id="week-indicator"></div>
+        </div>
+      </div>
+      <div>
+        <label>Time range:</label><br>
+        <label for="day"><input type="radio" id="day" name="date-range" value="day">Day</label>
+        <label for="week"><input type="radio" id="week" name="date-range" value="week">Week</label>
+      </div>
+      <div>
+        <label>Unit:<br>
+          <select name="unit" id="unit-input">
+            <optgroup label="Whole team">
+              <option value="team-all">Whole team</option>
+            </optgroup>
+            <optgroup label="Teams">
+            </optgroup>
+            <optgroup label="Associates">
+            </optgroup>
+          </select>
+        </label>
+      </div>
+      <input type="submit" value="Submit">
+    </form>
+    <ul class="tabs">
+      <!-- <li data-tab-target="#team" class="tab">Team statistics</li> -->
+      <!-- <li data-tab-target="#ticket-lists" class="tab">Ticket lists</li> -->
+      <!-- <li data-tab-target="#ticket-hours" class="tab">Ticket hours</li> -->
+      <li data-tab-target="#performance" class="active tab">QA randomizer</li>
+    </ul>
+  </header>
+
+  <main>
+    <div id="team" data-tab-content>
+    </div>
+    <div id="ticket-lists" data-tab-content>
+    </div>
+    <div id="ticket-hours" data-tab-content>
+    </div>
+    <div id="performance" data-tab-content class="active">
+    </div>
+  </main>
+  <footer>
+  </footer>
+</body>
+
+</html>

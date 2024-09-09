@@ -1,0 +1,26 @@
+function filterAssociatesBySup (ticketFilterDownload,associatesLoginforSup){
+   /*  let x = Object.keys(ticketFilterDownload.data)
+    .filter(associate => associateLoginforSup.includes(associate))
+    console.log(x); */
+    
+ /*    return Object.keys(ticketFilterDownload.data)
+    .filter(associate => associateLoginforSup.includes(associate))
+    .reduce((filteredObject, key) => ({
+      ...filteredObject,
+      [key]: object[key]
+    }), {}); */
+
+    let filteredAssociates = {};
+
+    // Iterate over the keys in the associates object
+    for (let associate in associatesLoginforSup) {
+        console.log(associate)
+        // Check if the key is also an element in the team array
+        /* if (associatesLoginforSup.includes(associate)) {
+            // Add the key and its value to the filteredAssociates object
+            filteredAssociates[key] = associates[key];
+        } */
+    }
+
+    // return filteredAssociates;
+}
