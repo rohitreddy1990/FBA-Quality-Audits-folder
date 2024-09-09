@@ -9,8 +9,8 @@ function randomizerAlgorithm_old(resolvedByAssociate, auditors, adHocTickets, cu
     // console.log("here we are", customAudits)
     const INITIAL_TICKET_NUMBER = 4
     const supList = ["ssriyans", "summagan", "jmoni", "jpreeth", "hemisas","rincraju","vemuln","girishd"];
-    let supLimit = 15;
-    let anySUPLeft = true;
+    let supLimit = 25;
+    let SUPLeft = true;
     const SUPRC = [/*'Damage Seller Coaching',*/ 'Defective - Non-Testable','Inappropriate Pull', 'Incorrect routing', 'No Inventory'];
     //let anyTicketsleft = true;
 
@@ -189,36 +189,36 @@ function randomizerAlgorithm_old(resolvedByAssociate, auditors, adHocTickets, cu
         }, {})
     }
 
-    function assignLastTickets(associates, resolvedByAssociate, assignments, auditorLogins) {
-        associates.forEach(associate => {
-            const auditNum = getAssociateAuditNum(customAudits, associate, currentWeekName, INITIAL_TICKET_NUMBER)
-            const resolvedByAsc = resolvedByAssociate[associate].totalResolved
-            const ascAuditedTtNum = associateCounter[associate]
-            const ascAuditedTtNumMax = Math.min(auditNum, resolvedByAsc.length)
-            //// console.log({ ascAuditedTtNumMax })
-            const remainingAuditsNum = ascAuditedTtNumMax - ascAuditedTtNum
-            //if (remainingAuditsNum < 1) continue
-            for (let i = 0; i < remainingAuditsNum; i++) {
-              //  const auditor = findAuditorWithLeastAudits(assignments, auditorLogins, associate)
-              const auditor = getAuditorBasedOnCounter(objCounterForAuditors);
-                const ticketId = resolvedByAsc.find(ticket => !auditedTickets.includes(ticket))
-                if (!ticketId) break
+    // function assignLastTickets(associates, resolvedByAssociate, assignments, auditorLogins) {
+    //     associates.forEach(associate => {
+    //         const auditNum = getAssociateAuditNum(customAudits, associate, currentWeekName, INITIAL_TICKET_NUMBER)
+    //         const resolvedByAsc = resolvedByAssociate[associate].totalResolved
+    //         const ascAuditedTtNum = associateCounter[associate]
+    //         const ascAuditedTtNumMax = Math.min(auditNum, resolvedByAsc.length)
+    //         //// console.log({ ascAuditedTtNumMax })
+    //         const remainingAuditsNum = ascAuditedTtNumMax - ascAuditedTtNum
+    //         //if (remainingAuditsNum < 1) continue
+    //         for (let i = 0; i < remainingAuditsNum; i++) {
+    //           //  const auditor = findAuditorWithLeastAudits(assignments, auditorLogins, associate)
+    //           const auditor = getAuditorBasedOnCounter(objCounterForAuditors);
+    //             const ticketId = resolvedByAsc.find(ticket => !auditedTickets.includes(ticket))
+    //             if (!ticketId) break
 
-                const marketplace = find("marketplace", ticketId, resolvedByAssociate[associate])
-                const rci = find("rci", ticketId, resolvedByAssociate[associate])
+    //             const marketplace = find("marketplace", ticketId, resolvedByAssociate[associate])
+    //             const rci = find("rci", ticketId, resolvedByAssociate[associate])
 
-                const extraFeatures = getExtraFeatures({ associate })
-                assignTicketToAuditor(
-                    auditor,
-                    associate,
-                    ticketId,
-                    marketplace,
-                    rci,
-                    extraFeatures
-                )
-            }
-        })
-    }
+    //             const extraFeatures = getExtraFeatures({ associate })
+    //             assignTicketToAuditor(
+    //                 auditor,
+    //                 associate,
+    //                 ticketId,
+    //                 marketplace,
+    //                 rci,
+    //                 extraFeatures
+    //             )
+    //         }
+    //     })
+    // }
 
     function randomlyAssignTickets(auditors, resolvedByAssociate) {
         
@@ -356,15 +356,15 @@ function randomizerAlgorithm_old(resolvedByAssociate, auditors, adHocTickets, cu
                         }
 
                         // Discard ticket if it's "Damage"
-                        // if (ticket.rci === 'Damage Seller Coaching') {
-                        //     continue
-                        // }
+                        if (ticket.rci === 'Damage Seller Coaching') {
+                            continue
+                        }
 
                         // Assign ticket to auditor
                         const rci = find("rci", ticket, associateTickets);
                         const associateSUP = resolvedByAssociate[associate]['SUP'];
                         const mapping = supToAuditorMap.get(associateSUP);
-                        const auditor = getAuditorBasedOnCounter(objCounterForAuditors, mapping, rci);
+                        const auditor = getAuditorBasedOnCounter(objCounterForAuditors, mapping, rci, associateSUP);
 
                        // If associate is the auditor, go to next associate
                         if (associate === auditor) {
@@ -514,7 +514,7 @@ function randomizerAlgorithm_old(resolvedByAssociate, auditors, adHocTickets, cu
     //     return selectedAuditor
     // }
 
-    function getAuditorBasedOnCounter(objCounterForAuditors, auditorList = [], RC = "") {
+    function getAuditorBasedOnCounter(objCounterForAuditors, auditorList = [], RC = "", SUP = "") {
         
       //  console.log(auditorList);
         //CounterForAuditor = CounterForAuditor.filter((a) => a[0] !== associate)
@@ -564,23 +564,26 @@ function randomizerAlgorithm_old(resolvedByAssociate, auditors, adHocTickets, cu
         //take the RC, return a SUP if rc is in the SUP list
         // return a auditor otherwise, ensure that the auditor is a AA, not in SUP list
 
-    if (SUPRC.includes(RC)) { // if RC is a SUP RC, return a SUP with the lowest audits
-        const lowestcount = Infinity;
+        
+        
+
+    
+        if (SUPLeft && SUPRC.includes(RC)) { // if RC is a SUP RC, return a SUP with the lowest audits
+        let lowestcount = - Infinity;
 
         for (const auditor in objCounterForAuditors) { 
             // go over each SUP auditor            
-            if (supList.includes(auditor)) {
+            if (supList.includes(auditor) && 
+            objCounterForAuditors[auditor] > lowestcount &&
+            auditor !== SUP) {
                 // ensure that the auditor is a SUP
                 // check the value for the SUP, remember the lowest value
-                if (objCounterForAuditors[auditor] < lowestcount) {
                     lowestcount = objCounterForAuditors[auditor];
                     selectedAuditor = auditor;
                 }
-            }
-        
         }
         return selectedAuditor;
-    }
+        }
 
 
          // this is return all SUPs as long as they are in the objCounterForAuditors. So if there are no SUPs in the objCounterForAuditors, it will return null
@@ -588,7 +591,7 @@ function randomizerAlgorithm_old(resolvedByAssociate, auditors, adHocTickets, cu
         //now by the time this loop is hit, all sups are assigned tickets as per their limit. So only auditors left are AA
 
         //console.log(`All sups are assigned`)
-        anySUPLeft = false
+        //anySUPLeft = false
 
         //use the auditorList and the objCounterForAuditors to find the auditor with the least assignments
         //and return the same auditor
@@ -660,6 +663,15 @@ function randomizerAlgorithm_old(resolvedByAssociate, auditors, adHocTickets, cu
                     const updatedArray = auditorArray.filter(mapFilter);
                     supToAuditorMap.set(sup, updatedArray);
                 })
+
+                if (SUPLeft) {
+                    const ListOfAvailableAuditors = Object.keys(objCounterForAuditors);
+                    SUPLeft = ListOfAvailableAuditors.filter(auditor => supList.includes(auditor));
+                    if (SUPLeft.length === 0) {
+                    SUPLeft = false;
+                }
+            }
+
             //    console.log(supToAuditorMap);
 
                // console.log(objCounterForAuditors);
