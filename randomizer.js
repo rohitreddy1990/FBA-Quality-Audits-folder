@@ -43,17 +43,17 @@ const oneOfEach = [
     // At least one ticket meeting these conditions will be audited for every
     // associate, as long as the maximum number of audits for the associate is not
     // surpassed, following the order of priority of the conditions.
-    // An Apollo ticket
-    {
-        condition: ticket => non_Remediated_RCIs.includes(ticket.rci),
-        featureName: "Non Remediated",
-    },
-
+    // A non rem ticket
     //An detail page images ticket
     {
         condition: ticket => ticket.rci && ticket.rci.includes("Detail Page - Images"),
-        featureName: "mldp",
+        featureName: "manual-must-audit",
     }, 
+    
+    {
+        condition: ticket => non_Remediated_RCIs.includes(ticket.rci),
+        featureName: "Non Remediated",
+    },   
 ]
 
 
@@ -241,22 +241,6 @@ This function is likely part of a larger algorithm that assigns tickets to audit
         return getAuditor.withLeastAudits(auditorsToChooseFrom)
     }
 
-    // Run conditions
-    must.forEach(condition => {
-        const ticketsWithCondition = shuffledTicketList.filter(condition.condition)
-
-        ticketsWithCondition.forEach(ticket => {
-            const auditor = selectAuditor(ticket.marketplace)
-
-            const extraFeatures = [condition.featureName]
-            const reachedAssociateLimit = checkReachedAssociateLimit(ticket.associate)
-            if (reachedAssociateLimit) {
-                extraFeatures.push("extra")
-            }
-            assignTicketToAuditor(auditor, ticket, extraFeatures)
-        })
-    })
-
     oneOfEach.forEach(condition => {
         const associatesAssigned = []
         shuffledTicketList.forEach(ticket => {
@@ -284,9 +268,26 @@ This function is likely part of a larger algorithm that assigns tickets to audit
             assignTicketToAuditor(auditor, ticket, [condition.featureName])
             associatesAssigned.push(associate)
         })
-
+        console.log (associatesAssigned);
     })
 
+    // Run conditions
+    must.forEach(condition => {
+        const ticketsWithCondition = shuffledTicketList.filter(condition.condition)
+
+        ticketsWithCondition.forEach(ticket => {
+            const auditor = selectAuditor(ticket.marketplace)
+
+            const extraFeatures = [condition.featureName]
+            const reachedAssociateLimit = checkReachedAssociateLimit(ticket.associate)
+            if (reachedAssociateLimit) {
+                extraFeatures.push("extra")
+            }
+            assignTicketToAuditor(auditor, ticket, extraFeatures)
+        })
+    })
+
+    
     // Assign the remaining audits for every associate
     shuffledTicketList.forEach(ticket => {
         const { associate } = ticket

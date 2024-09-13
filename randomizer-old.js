@@ -172,22 +172,22 @@ function randomizerAlgorithm_old(resolvedByAssociate, auditors, adHocTickets, cu
 
     ///
 
-    function filterMarketplace(resolvedByThisAssociate) {
-        const rciDetailPage = Object.entries(resolvedByThisAssociate.rci)
-            .filter(([key]) => key.includes("Detail Page"))
-            .reduce((acc, [, values]) => {
-                acc.push(...values)
-                return acc
-            }, [])
+    // function filterMarketplace(resolvedByThisAssociate) {
+    //     const rciDetailPage = Object.entries(resolvedByThisAssociate.rci)
+    //         .filter(([key]) => key.includes("Detail Page"))
+    //         .reduce((acc, [, values]) => {
+    //             acc.push(...values)
+    //             return acc
+    //         }, [])
 
-        return Object.entries(resolvedByThisAssociate.marketplace).reduce((acc, [key, values]) => {
-            const filteredValues = values.filter(value => rciDetailPage.includes(value))
-            if (filteredValues.length > 0) {
-                acc[key] = filteredValues
-            }
-            return acc
-        }, {})
-    }
+    //     return Object.entries(resolvedByThisAssociate.marketplace).reduce((acc, [key, values]) => {
+    //         const filteredValues = values.filter(value => rciDetailPage.includes(value))
+    //         if (filteredValues.length > 0) {
+    //             acc[key] = filteredValues
+    //         }
+    //         return acc
+    //     }, {})
+    // }
 
     // function assignLastTickets(associates, resolvedByAssociate, assignments, auditorLogins) {
     //     associates.forEach(associate => {
@@ -362,9 +362,10 @@ function randomizerAlgorithm_old(resolvedByAssociate, auditors, adHocTickets, cu
                         const associateSUP = resolvedByAssociate[associate]['SUP'];
                         const mapping = supToAuditorMap.get(associateSUP);
                         const auditor = getAuditorBasedOnCounter(objCounterForAuditors, mapping, rci, associateSUP);
+                        const RCI_to_skip = ['Damage Seller Coaching'];
 
                         // Discard ticket if it's "Damage"
-                        if (rci === 'Damage Seller Coaching') {
+                        if (RCI_to_skip.includes(rci)) {
                             continue
                         }
 

@@ -270,6 +270,8 @@ async function main(date, timeRange, unit) {
                 const assignments = randomizerAlgorithm_old(resolvedByAssociate, auditors, [manualMustAuditTickets, unqFailMustAuditTickets, skipAuditTickets], currentCustomAudits, currentWeekName)
                 // assignments apart from manual must audits
                 const assignments_new = randomizerAlgorithm(ticketList, auditors, associates, currentCustomAudits)
+
+                
                 
                 
                 // Weekly Randomizer Check
