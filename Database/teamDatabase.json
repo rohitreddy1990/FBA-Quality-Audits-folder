@@ -1,6 +1,30 @@
 {
+  "skiranbs": [
+    "Sai Kiran B S",
+    "ssriyans",
+    "2024-04-29",
+    "SPS Associate - CSAC"
+  ],
+  "shaqakan": [
+    "Akansha Sharma",
+    "ssriyans",
+    "2022-01-24",
+    "SPS Associate - CSAC"
+  ],
   "kulsumm": [
     "Umme Kulsum",
+    "ssriyans",
+    "2024-04-29",
+    "SPS Associate - CSAC"
+  ],
+  "suriyarp": [
+    "Suriya Pugazendhi",
+    "ssriyans",
+    "2024-04-29",
+    "SPS Associate - CSAC"
+  ],
+  "psamm": [
+    "SAMPATH Pinnamareddy",
     "ssriyans",
     "2024-04-29",
     "SPS Associate - CSAC"
@@ -17,100 +41,10 @@
     "2024-06-17",
     "SPS Associate - CSAC"
   ],
-  "psamm": [
-    "SAMPATH Pinnamareddy",
-    "ssriyans",
-    "2024-04-29",
-    "SPS Associate - CSAC"
-  ],
-  "skiranbs": [
-    "Sai Kiran B S",
-    "ssriyans",
-    "2024-04-29",
-    "SPS Associate - CSAC"
-  ],
-  "shaqakan": [
-    "Akansha Sharma",
-    "ssriyans",
-    "2022-01-24",
-    "SPS Associate - CSAC"
-  ],
-  "suriyarp": [
-    "Suriya Pugazendhi",
-    "ssriyans",
-    "2024-04-29",
-    "SPS Associate - CSAC"
-  ],
   "syedksul": [
     "Syed Syed",
     "ssriyans",
     "2024-06-17",
-    "SPS Associate - CSAC"
-  ],
-  "nilotpab": [
-    "Nilotpal Bora",
-    "rincraju",
-    "2021-05-10",
-    "SPS Associate - CSAC"
-  ],
-  "mttahi": [
-    "Mohammed Taher",
-    "rincraju",
-    "2024-02-19",
-    "SPS Associate - CSAC"
-  ],
-  "vbharadw": [
-    "Vinay Bharadwaj",
-    "rincraju",
-    "2013-05-13",
-    "SPS Associate - CSAC - Mentor"
-  ],
-  "gakh": [
-    "Akhila G",
-    "rincraju",
-    "2017-01-23",
-    "SPS Associate - CSAC"
-  ],
-  "menkat": [
-    "Menka Tiwari",
-    "rincraju",
-    "2024-02-19",
-    "SPS Associate - CSAC"
-  ],
-  "snehalap": [
-    "Snehalata Pradhan",
-    "rincraju",
-    "2017-04-10",
-    "SPS Associate - CSAC"
-  ],
-  "yakshat": [
-    "Yakshata Narendrababu",
-    "rincraju",
-    "2019-02-27",
-    "SPS Associate - CSAC"
-  ],
-  "hasridh": [
-    "Harinath Sridharan",
-    "rincraju",
-    "2019-02-27",
-    "SPS Associate - CSAC"
-  ],
-  "pmoumita": [
-    "Moumita Pal",
-    "rincraju",
-    "2019-01-07",
-    "SPS Associate - CSAC"
-  ],
-  "mhammr": [
-    "Mohammed R",
-    "rincraju",
-    "2016-06-20",
-    "SPS Associate - CSAC"
-  ],
-  "srishefa": [
-    "Shefali Srivastava",
-    "rincraju",
-    "2021-04-12",
     "SPS Associate - CSAC"
   ],
   "sushbira": [
@@ -119,124 +53,268 @@
     "2024-06-17",
     "SPS Associate - CSAC"
   ],
-  "djravi": [
-    "Ravi D",
-    "vemuln",
-    "2024-06-03",
+  "vbharadw": [
+    "Vinay Bharadwaj",
+    "rincraju",
+    "2013-05-13",
+    "SPS Associate - CSAC - Mentor"
+  ],
+  "mhammr": [
+    "Mohammed R",
+    "rincraju",
+    "2016-06-20",
     "SPS Associate - CSAC"
   ],
-  "jeejeevi": [
-    "Jeevitha Jeevitha",
-    "vemuln",
-    "2024-06-03",
+  "mttahi": [
+    "Mohammed Taher",
+    "rincraju",
+    "2024-02-19",
     "SPS Associate - CSAC"
   ],
-  "hikarthi": [
-    "Karthik H S",
-    "vemuln",
-    "2024-06-03",
+  "nilotpab": [
+    "Nilotpal Bora",
+    "rincraju",
+    "2021-05-10",
     "SPS Associate - CSAC"
   ],
-  "komgadag": [
-    "Komal Gadag",
-    "vemuln",
-    "2024-06-03",
+  "gakh": [
+    "Akhila G",
+    "rincraju",
+    "2017-01-23",
     "SPS Associate - CSAC"
   ],
-  "cskaveri": [
-    "Kaveri C S",
-    "vemuln",
-    "2024-06-03",
+  "pmoumita": [
+    "Moumita Pal",
+    "rincraju",
+    "2019-01-07",
     "SPS Associate - CSAC"
   ],
-  "rahulsdv": [
-    "Rahul S",
-    "vemuln",
-    "2024-06-03",
+  "snehalap": [
+    "Snehalata Pradhan",
+    "rincraju",
+    "2017-04-10",
     "SPS Associate - CSAC"
   ],
-  "ranaznaz": [
-    "Ranaz Naz",
-    "vemuln",
-    "2024-06-03",
+  "menkat": [
+    "Menka Tiwari",
+    "rincraju",
+    "2024-02-19",
     "SPS Associate - CSAC"
   ],
-  "poojamra": [
-    "Poojarani L M",
-    "vemuln",
-    "2024-06-03",
-    "SPS Associate - CSAC"
-  ],
-  "jayantmp": [
-    "Jayanthkumar Mp",
-    "vemuln",
-    "2024-06-03",
-    "SPS Associate - CSAC"
-  ],
-  "jpnithi": [
-    "Nithin J",
-    "vemuln",
-    "2024-06-03",
-    "SPS Associate - CSAC"
-  ],
-  "uramsri": [
-    "Srimathi Uthirapathi",
-    "vemuln",
-    "2024-06-03",
-    "SPS Associate - CSAC"
-  ],
-  "ssrany": [
-    "Saranya Vasanth",
-    "girishd",
-    "2023-07-31",
-    "SPS Associate"
-  ],
-  "satxsama": [
-    "Satyajit Samal",
-    "vemuln",
-    "2024-06-03",
-    "SPS Associate - CSAC"
-  ],
-  "shubhrk": [
-    "SHUBHAM KUMAR",
-    "vemuln",
-    "2024-06-03",
-    "SPS Associate - CSAC"
-  ],
-  "apookoni": [
-    "Apoorva Koni",
-    "girishd",
+  "hasridh": [
+    "Harinath Sridharan",
+    "rincraju",
     "2019-02-27",
     "SPS Associate - CSAC"
   ],
-  "swaropme": [
-    "Swaroop ME",
-    "vemuln",
+  "srishefa": [
+    "Shefali Srivastava",
+    "rincraju",
+    "2021-04-12",
+    "SPS Associate - CSAC"
+  ],
+  "yakshat": [
+    "Yakshata Narendrababu",
+    "rincraju",
+    "2019-02-27",
+    "SPS Associate - CSAC"
+  ],
+  "roritwik": [
+    "RITWIK ROY",
+    "jmoni",
     "2024-06-03",
     "SPS Associate - CSAC"
   ],
-  "kalavany": [
-    "Lavanya Karthikeyan",
-    "girishd",
-    "2023-07-31",
-    "SPS Associate"
-  ],
-  "obinen": [
-    "obineni Honey",
-    "girishd",
-    "2017-10-30",
-    "SPS Associate - CSAC"
-  ],
-  "chharich": [
-    "Harichandana Chilakala",
-    "vemuln",
+  "sakshikp": [
+    "Sakshi Ganiga",
+    "jmoni",
     "2024-06-03",
     "SPS Associate - CSAC"
   ],
-  "akannot": [
-    "Akanksha Akanksha",
-    "vemuln",
+  "sathkart": [
+    "Karthik Sathyan",
+    "jmoni",
+    "2020-08-24",
+    "SPS Associate - CSAC"
+  ],
+  "ndalwani": [
+    "Nikita Dalwani",
+    "jmoni",
+    "2020-08-24",
+    "SPS Associate - CSAC"
+  ],
+  "chaitu": [
+    "Chaitra Umesh",
+    "jmoni",
+    "2021-05-10",
+    "SPS Associate - CSAC"
+  ],
+  "marshfma": [
+    "Marsha Mathai",
+    "jmoni",
     "2024-06-03",
+    "SPS Associate - CSAC"
+  ],
+  "likichan": [
+    "Likith Chandra",
+    "jmoni",
+    "2024-06-03",
+    "SPS Associate - CSAC"
+  ],
+  "ayanapm": [
+    "Ayana P M",
+    "jmoni",
+    "2024-06-03",
+    "SPS Associate - CSAC"
+  ],
+  "chdhanu": [
+    "C. H. Dhanunjay",
+    "jmoni",
+    "2024-06-03",
+    "SPS Associate - CSAC"
+  ],
+  "chaicp": [
+    "Chaithra C",
+    "jmoni",
+    "2024-06-17",
+    "SPS Associate - CSAC"
+  ],
+  "mdjitesh": [
+    "Jitesh M",
+    "jmoni",
+    "2024-06-03",
+    "SPS Associate - CSAC"
+  ],
+  "bilavat": [
+    "BILAVATH BILAVATH",
+    "jmoni",
+    "2024-06-03",
+    "SPS Associate - CSAC"
+  ],
+  "echandub": [
+    "Chandana B",
+    "jmoni",
+    "2024-06-17",
+    "SPS Associate - CSAC"
+  ],
+  "dheemaa": [
+    "Dheemanth JL",
+    "jmoni",
+    "2024-06-03",
+    "SPS Associate - CSAC"
+  ],
+  "ichirags": [
+    "Chirag S",
+    "jmoni",
+    "2024-06-17",
+    "SPS Associate - CSAC"
+  ],
+  "sirajuls": [
+    "Sirajul Islam Sheikh",
+    "jpreeth",
+    "2016-01-25",
+    "SPS Associate - CSAC"
+  ],
+  "gangotri": [
+    "Gangotri Sut",
+    "jpreeth",
+    "2014-12-10",
+    "SPS Associate - CSAC"
+  ],
+  "ssabar": [
+    "Sabari Karthick",
+    "jpreeth",
+    "2016-06-20",
+    "SPS Associate - CSAC"
+  ],
+  "sdharsi": [
+    "Dharsittha SHANKAR",
+    "jmoni",
+    "2024-06-03",
+    "SPS Associate - CSAC"
+  ],
+  "vipatill": [
+    "vishwanath patil",
+    "jmoni",
+    "2024-06-03",
+    "SPS Associate - CSAC"
+  ],
+  "sswra": [
+    "Swaraj S",
+    "rincraju",
+    "2021-05-10",
+    "SPS Associate - CSAC"
+  ],
+  "omkarom": [
+    "Omkar Nath",
+    "rincraju",
+    "2024-04-29",
+    "SPS Associate - CSAC"
+  ],
+  "saammyy": [
+    "POTLA SAMYUKTHA",
+    "rincraju",
+    "2024-04-29",
+    "SPS Associate - CSAC"
+  ],
+  "afret": [
+    "Afreen Taj",
+    "rincraju",
+    "2021-05-10",
+    "SPS Associate - CSAC"
+  ],
+  "mhamnnn": [
+    "Mohammed Ali H N",
+    "rincraju",
+    "2021-05-10",
+    "SPS Associate - CSAC"
+  ],
+  "ddeksha": [
+    "Deeksha Deeksha",
+    "rincraju",
+    "2021-05-17",
+    "SPS Associate - CSAC"
+  ],
+  "niranzan": [
+    "Niranjan Angadi",
+    "rincraju",
+    "2024-04-29",
+    "SPS Associate - CSAC"
+  ],
+  "rkvs": [
+    "Ritesh Kumar",
+    "rincraju",
+    "2024-04-29",
+    "SPS Associate - CSAC"
+  ],
+  "pragathf": [
+    "Pragatheshwaran N",
+    "rincraju",
+    "2024-04-29",
+    "SPS Associate - CSAC"
+  ],
+  "shwethg": [
+    "Shwetha G",
+    "rincraju",
+    "2024-06-17",
+    "SPS Associate - CSAC"
+  ],
+  "pavipb": [
+    "Pavithra B",
+    "rincraju",
+    "2024-04-29",
+    "SPS Associate - CSAC"
+  ],
+  "nalvg": [
+    "Nagaveni Gaddi",
+    "rincraju",
+    "2024-04-29",
+    "SPS Associate - CSAC"
+  ],
+  "sashixk": [
+    "Sashidhar Kanike",
+    "rincraju",
+    "2024-06-17",
     "SPS Associate - CSAC"
   ],
   "narayaco": [
@@ -245,16 +323,10 @@
     "2024-06-17",
     "SPS Associate - CSAC"
   ],
-  "farhanyk": [
-    "Farhan Khan",
-    "summagan",
-    "2024-04-29",
-    "SPS Associate - CSAC"
-  ],
-  "rmyas": [
-    "RAMYA S",
-    "summagan",
-    "2019-02-27",
+  "kushalnr": [
+    "Kushal Sugavi N R",
+    "rincraju",
+    "2024-06-17",
     "SPS Associate - CSAC"
   ],
   "padmashk": [
@@ -269,64 +341,22 @@
     "2024-06-17",
     "SPS Associate - CSAC"
   ],
-  "shaiqsal": [
-    "SHAIK SALMA",
-    "rincraju",
-    "2024-06-17",
-    "SPS Associate - CSAC"
-  ],
-  "kushalnr": [
-    "Kushal Sugavi N R",
-    "rincraju",
-    "2024-06-17",
-    "SPS Associate - CSAC"
-  ],
-  "nalvg": [
-    "Nagaveni Gaddi",
-    "rincraju",
-    "2024-04-29",
-    "SPS Associate - CSAC"
-  ],
-  "revanthq": [
-    "Revanth S",
-    "summagan",
-    "2023-03-06",
-    "SPS Associate - CSAC"
-  ],
-  "mousuroy": [
-    "Mousumi Roy (deb)",
-    "summagan",
-    "2024-04-29",
-    "SPS Associate - CSAC"
-  ],
   "smadiwal": [
     "SHAMBHAVI MADIWAL",
     "summagan",
     "2020-08-24",
     "SPS Associate - CSAC"
   ],
-  "shairafd": [
-    "Shaik Rafi",
-    "summagan",
-    "2023-03-06",
-    "SPS Associate - CSAC"
-  ],
-  "meshanaw": [
-    "KURUMALAKOTA SHAIK SHANAWAZ",
-    "summagan",
-    "2023-03-06",
-    "SPS Associate - CSAC"
-  ],
-  "mnndini": [
-    "Nandini M",
+  "purnikes": [
+    "Nikesh Puri",
     "summagan",
     "2021-05-10",
     "SPS Associate - CSAC"
   ],
-  "avibhav": [
-    "Bhavana Pradeep",
-    "summagan",
-    "2023-03-06",
+  "shaiqsal": [
+    "SHAIK SALMA",
+    "rincraju",
+    "2024-06-17",
     "SPS Associate - CSAC"
   ],
   "sahumna": [
@@ -347,194 +377,38 @@
     "2021-05-10",
     "SPS Associate - CSAC - Mentor"
   ],
-  "chanbp": [
-    "Chandini Bavupalli",
+  "rmyas": [
+    "RAMYA S",
     "summagan",
-    "2024-06-17",
+    "2019-02-27",
     "SPS Associate - CSAC"
   ],
-  "purnikes": [
-    "Nikesh Puri",
-    "summagan",
-    "2021-05-10",
-    "SPS Associate - CSAC"
-  ],
-  "sjjavad": [
-    "Sai Siva Krishna Javadhi",
-    "girishd",
-    "2020-04-13",
-    "SPS Associate - Mentor"
-  ],
-  "klogs": [
-    "Logesh .",
-    "girishd",
-    "2021-06-21",
-    "SPS Associate - CSAC"
-  ],
-  "faiaza": [
-    "Faiaz Ahmed",
-    "girishd",
-    "2021-03-22",
-    "SPS Associate"
-  ],
-  "kanimozr": [
-    "Kanimozhi Rathinam",
-    "girishd",
-    "2020-04-13",
-    "SPS Associate - Mentor"
-  ],
-  "kpkalya": [
-    "Kalyan Babu K.P",
-    "girishd",
-    "2020-04-13",
-    "SPS Associate - Mentor"
-  ],
-  "arunmozs": [
-    "ARUNMOZHI SANKAR",
-    "girishd",
-    "2021-06-21",
-    "SPS Associate - CSAC"
-  ],
-  "ajitezhu": [
-    "Ajith Ezhumalai",
-    "girishd",
-    "2021-06-21",
-    "SPS Associate - CSAC"
-  ],
-  "niashrab": [
-    "Nihar Ashraf",
-    "girishd",
-    "2021-06-21",
-    "SPS Associate - CSAC"
-  ],
-  "arshzjas": [
-    "Arsha Jasmine",
-    "girishd",
-    "2021-06-21",
-    "SPS Associate - CSAC"
-  ],
-  "stafridh": [
-    "Afridhi baig S",
-    "girishd",
-    "2021-06-21",
-    "SPS Associate - CSAC"
-  ],
-  "wbharkum": [
-    "Bharath Kumaran B M",
-    "girishd",
-    "2021-12-13",
-    "SPS Associate"
-  ],
-  "ojsarava": [
-    "SARAVANAN J",
-    "girishd",
-    "2021-12-13",
-    "SPS Associate"
-  ],
-  "johnabrk": [
-    "Paul John Abrao",
-    "girishd",
-    "2021-06-21",
-    "SPS Associate - CSAC"
-  ],
-  "uharitha": [
-    "Haritha Vinod",
-    "girishd",
-    "2021-06-21",
-    "SPS Associate - CSAC"
-  ],
-  "sreemraj": [
-    "Sreemathi Rajamurali",
-    "girishd",
-    "2023-07-31",
-    "SPS Associate"
-  ],
-  "rkalaich": [
-    "Ratheesh Manikandan Kalaichelvan",
-    "girishd",
-    "2021-06-21",
-    "SPS Associate - CSAC"
-  ],
-  "qtsantho": [
-    "Santhosh Srinivasulu",
-    "girishd",
-    "2021-06-21",
-    "SPS Associate - CSAC"
-  ],
-  "msrinatm": [
-    "Srinath M",
-    "girishd",
-    "2021-12-13",
-    "SPS Associate"
-  ],
-  "venkvidh": [
-    "Vidhyasagar Venkataramanan",
-    "girishd",
-    "2021-06-21",
-    "SPS Associate - CSAC"
-  ],
-  "mmrahman": [
-    "Mohammed Suhail Rahman B",
-    "girishd",
-    "2021-12-13",
-    "SPS Associate"
-  ],
-  "reddychy": [
-    "Chaithanya S",
-    "summagan",
-    "2024-06-17",
-    "SPS Associate - CSAC"
-  ],
-  "depakmg": [
-    "Deepak Gowda",
-    "summagan",
-    "2024-06-17",
-    "SPS Associate - CSAC"
-  ],
-  "chaitsup": [
-    "Chaitanya Muddeti",
-    "summagan",
-    "2024-06-17",
-    "SPS Associate - CSAC"
-  ],
-  "kgumble": [
-    "Kaustubh Gumble",
-    "summagan",
-    "2024-06-17",
-    "SPS Associate - CSAC"
-  ],
-  "binujhon": [
-    "Binu John",
+  "revanthq": [
+    "Revanth S",
     "summagan",
     "2023-03-06",
     "SPS Associate - CSAC"
   ],
-  "aymfarah": [
-    "Ayman Farah",
-    "summagan",
-    "2024-06-17",
-    "SPS Associate - CSAC"
-  ],
-  "arpitkul": [
-    "Arpita Kulkarni",
+  "farhanyk": [
+    "Farhan Khan",
     "summagan",
     "2024-04-29",
     "SPS Associate - CSAC"
   ],
-  "abipr": [
-    "Abijith P R",
+  "mnndini": [
+    "Nandini M",
     "summagan",
-    "2024-06-17",
+    "2021-05-10",
     "SPS Associate - CSAC"
   ],
-  "mkabhi": [
-    "Abhishek M",
+  "shairafd": [
+    "Shaik Rafi",
     "summagan",
-    "2024-06-17",
+    "2023-03-06",
     "SPS Associate - CSAC"
   ],
-  "aiayesh": [
-    "Ayesha Aiman",
+  "mousuroy": [
+    "Mousumi Roy (deb)",
     "summagan",
     "2024-04-29",
     "SPS Associate - CSAC"
@@ -545,178 +419,28 @@
     "2023-03-06",
     "SPS Associate - CSAC"
   ],
-  "nkruthi": [
-    "Kruthika N",
+  "meshanaw": [
+    "KURUMALAKOTA SHAIK SHANAWAZ",
+    "summagan",
+    "2023-03-06",
+    "SPS Associate - CSAC"
+  ],
+  "vkjadhav": [
+    "Vinod Kumar M Jadhav",
+    "summagan",
+    "2023-03-07",
+    "SPS Associate - CSAC"
+  ],
+  "avibhav": [
+    "Bhavana Pradeep",
+    "summagan",
+    "2023-03-06",
+    "SPS Associate - CSAC"
+  ],
+  "aiayesh": [
+    "Ayesha Aiman",
     "summagan",
     "2024-04-29",
-    "SPS Associate - CSAC"
-  ],
-  "zeeshl": [
-    "Zeeshan Mohammed",
-    "jmoni",
-    "2016-11-07",
-    "SPS Associate - CSAC Mentor"
-  ],
-  "ntharwan": [
-    "Nisha Tharwani",
-    "jmoni",
-    "2017-05-03",
-    "SPS Associate - CSAC"
-  ],
-  "tamasree": [
-    "Tamasree Banerjee",
-    "jmoni",
-    "2016-06-20",
-    "SPS Associate - CSAC"
-  ],
-  "boopan": [
-    "Naveen V B",
-    "jmoni",
-    "2017-05-15",
-    "SPS Associate - CSAC"
-  ],
-  "ndalwani": [
-    "Nikita Dalwani",
-    "jmoni",
-    "2020-08-24",
-    "SPS Associate - CSAC"
-  ],
-  "khmansi": [
-    "Mansi Khurana",
-    "jmoni",
-    "2020-08-24",
-    "SPS Associate - CSAC"
-  ],
-  "nikitsur": [
-    "Nikita Sur",
-    "jmoni",
-    "2015-06-29",
-    "SPS Associate - CSAC"
-  ],
-  "marysz": [
-    "MARY AMALA S",
-    "jmoni",
-    "2017-09-18",
-    "SPS Associate - CSAC"
-  ],
-  "preesund": [
-    "Preetha Sundaresan",
-    "girishd",
-    "2021-06-21",
-    "SPS Associate - CSAC"
-  ],
-  "rnishana": [
-    "Nishanth R",
-    "girishd",
-    "2021-06-21",
-    "SPS Associate - CSAC"
-  ],
-  "marvsash": [
-    "Sasha Althea",
-    "girishd",
-    "2023-07-31",
-    "SPS Associate"
-  ],
-  "thirutk": [
-    "Thiruvengadam Mohan",
-    "girishd",
-    "2023-07-31",
-    "SPS Associate"
-  ],
-  "navyagu": [
-    "Navya Gubbala",
-    "girishd",
-    "2023-07-31",
-    "SPS Associate"
-  ],
-  "rolalith": [
-    "ROOPA LALITHAMBICA MINDI",
-    "girishd",
-    "2023-07-31",
-    "SPS Associate"
-  ],
-  "suvarnzs": [
-    "suvarna suresh",
-    "girishd",
-    "2023-07-31",
-    "SPS Associate"
-  ],
-  "dishnav": [
-    "Dishna V",
-    "vemuln",
-    "2024-06-03",
-    "SPS Associate - CSAC"
-  ],
-  "shivzs": [
-    "shivali s",
-    "girishd",
-    "2023-07-31",
-    "SPS Associate"
-  ],
-  "kyvarun": [
-    "Varun Kumar m",
-    "vemuln",
-    "2024-06-03",
-    "SPS Associate - CSAC"
-  ],
-  "kirankuu": [
-    "Kiran Kumaar B",
-    "girishd",
-    "2021-06-21",
-    "SPS Associate - CSAC"
-  ],
-  "pavipb": [
-    "Pavithra B",
-    "rincraju",
-    "2024-04-29",
-    "SPS Associate - CSAC"
-  ],
-  "susinand": [
-    "SUSILA NANDAVARAPU",
-    "vemuln",
-    "2024-06-03",
-    "SPS Associate - CSAC"
-  ],
-  "mhamnnn": [
-    "Mohammed Ali H N",
-    "rincraju",
-    "2021-05-10",
-    "SPS Associate - CSAC"
-  ],
-  "joashwin": [
-    "Ashwin Joseph",
-    "vemuln",
-    "2018-09-12",
-    "SPS Associate - CSAC"
-  ],
-  "keeruu": [
-    "Keerthana M",
-    "vemuln",
-    "2024-06-03",
-    "SPS Associate - CSAC"
-  ],
-  "kgachary": [
-    "Krishan Acharya",
-    "vemuln",
-    "2024-06-03",
-    "SPS Associate - CSAC"
-  ],
-  "nishask": [
-    "Nisha Kumari",
-    "vemuln",
-    "2024-06-03",
-    "SPS Associate - CSAC"
-  ],
-  "harsedwa": [
-    "Harshitha Edward",
-    "hemisas",
-    "2022-01-03",
-    "SPS Associate - CSAC"
-  ],
-  "sprondla": [
-    "Spandana Rondla",
-    "vemuln",
-    "2024-06-03",
     "SPS Associate - CSAC"
   ],
   "akuratti": [
@@ -725,20 +449,134 @@
     "2024-04-29",
     "SPS Associate - CSAC"
   ],
-  "vsachara": [
-    "Sai PILLA",
-    "jmoni",
-    "2022-08-01",
+  "binujhon": [
+    "Binu John",
+    "summagan",
+    "2023-03-06",
     "SPS Associate - CSAC"
   ],
-  "roritwik": [
-    "RITWIK ROY",
+  "sandydev": [
+    "Sandesh Devarushi",
+    "rincraju",
+    "2024-06-17",
+    "SPS Associate - CSAC"
+  ],
+  "arpitkul": [
+    "Arpita Kulkarni",
+    "summagan",
+    "2024-04-29",
+    "SPS Associate - CSAC"
+  ],
+  "mkabhi": [
+    "Abhishek M",
+    "summagan",
+    "2024-06-17",
+    "SPS Associate - CSAC"
+  ],
+  "nkruthi": [
+    "Kruthika N",
+    "summagan",
+    "2024-04-29",
+    "SPS Associate - CSAC"
+  ],
+  "kgumble": [
+    "Kaustubh Gumble",
+    "summagan",
+    "2024-06-17",
+    "SPS Associate - CSAC"
+  ],
+  "chaitsup": [
+    "Chaitanya Muddeti",
+    "summagan",
+    "2024-06-17",
+    "SPS Associate - CSAC"
+  ],
+  "chanbp": [
+    "Chandini Bavupalli",
+    "summagan",
+    "2024-06-17",
+    "SPS Associate - CSAC"
+  ],
+  "depakmg": [
+    "Deepak Gowda",
+    "summagan",
+    "2024-06-17",
+    "SPS Associate - CSAC"
+  ],
+  "reddychy": [
+    "Chaithanya S",
+    "summagan",
+    "2024-06-17",
+    "SPS Associate - CSAC"
+  ],
+  "abipr": [
+    "Abijith P R",
+    "summagan",
+    "2024-06-17",
+    "SPS Associate - CSAC"
+  ],
+  "aymfarah": [
+    "Ayman Farah",
+    "summagan",
+    "2024-06-17",
+    "SPS Associate - CSAC"
+  ],
+  "tamasree": [
+    "Tamasree Banerjee",
     "jmoni",
-    "2024-06-03",
+    "2016-06-20",
+    "SPS Associate - CSAC"
+  ],
+  "marysz": [
+    "MARY AMALA S",
+    "jmoni",
+    "2017-09-18",
+    "SPS Associate - CSAC"
+  ],
+  "nikitsur": [
+    "Nikita Sur",
+    "jmoni",
+    "2015-06-29",
+    "SPS Associate - CSAC"
+  ],
+  "ntharwan": [
+    "Nisha Tharwani",
+    "jmoni",
+    "2017-05-03",
+    "SPS Associate - CSAC"
+  ],
+  "zeeshl": [
+    "Zeeshan Mohammed",
+    "jmoni",
+    "2016-11-07",
+    "SPS Associate - CSAC Mentor"
+  ],
+  "sangmans": [
+    "Nehal Sangma",
+    "jmoni",
+    "2018-09-12",
+    "SPS Associate - CSAC"
+  ],
+  "boopan": [
+    "Naveen V B",
+    "jmoni",
+    "2017-05-15",
     "SPS Associate - CSAC"
   ],
   "vinuthm": [
     "Vinutha M",
+    "jmoni",
+    "2024-06-03",
+    "SPS Associate - CSAC"
+  ],
+  "khmansi": [
+    "Mansi Khurana",
+    "jmoni",
+    "2020-08-24",
+    "SPS Associate - CSAC"
+  ],
+  "pkmutham": [
+    "Muthamma PK",
     "jmoni",
     "2024-06-03",
     "SPS Associate - CSAC"
@@ -749,160 +587,10 @@
     "2021-05-10",
     "SPS Associate - CSAC"
   ],
-  "sathkart": [
-    "Karthik Sathyan",
+  "vsachara": [
+    "Sai PILLA",
     "jmoni",
-    "2020-08-24",
-    "SPS Associate - CSAC"
-  ],
-  "chaitu": [
-    "Chaitra Umesh",
-    "jmoni",
-    "2021-05-10",
-    "SPS Associate - CSAC"
-  ],
-  "pkmutham": [
-    "Muthamma PK",
-    "jmoni",
-    "2024-06-03",
-    "SPS Associate - CSAC"
-  ],
-  "bilavat": [
-    "BILAVATH BILAVATH",
-    "jmoni",
-    "2024-06-03",
-    "SPS Associate - CSAC"
-  ],
-  "mdjitesh": [
-    "Jitesh M",
-    "jmoni",
-    "2024-06-03",
-    "SPS Associate - CSAC"
-  ],
-  "ichirags": [
-    "Chirag S",
-    "jmoni",
-    "2024-06-17",
-    "SPS Associate - CSAC"
-  ],
-  "sakshikp": [
-    "Sakshi Ganiga",
-    "jmoni",
-    "2024-06-03",
-    "SPS Associate - CSAC"
-  ],
-  "echandub": [
-    "Chandana B",
-    "jmoni",
-    "2024-06-17",
-    "SPS Associate - CSAC"
-  ],
-  "vipatill": [
-    "vishwanath patil",
-    "jmoni",
-    "2024-06-03",
-    "SPS Associate - CSAC"
-  ],
-  "chaicp": [
-    "Chaithra C",
-    "jmoni",
-    "2024-06-17",
-    "SPS Associate - CSAC"
-  ],
-  "sdharsi": [
-    "Dharsittha SHANKAR",
-    "jmoni",
-    "2024-06-03",
-    "SPS Associate - CSAC"
-  ],
-  "ayanapm": [
-    "Ayana P M",
-    "jmoni",
-    "2024-06-03",
-    "SPS Associate - CSAC"
-  ],
-  "likichan": [
-    "Likith Chandra",
-    "jmoni",
-    "2024-06-03",
-    "SPS Associate - CSAC"
-  ],
-  "sangmans": [
-    "Nehal Sangma",
-    "jmoni",
-    "2018-09-12",
-    "SPS Associate - CSAC"
-  ],
-  "chdhanu": [
-    "C. H. Dhanunjay",
-    "jmoni",
-    "2024-06-03",
-    "SPS Associate - CSAC"
-  ],
-  "dheemaa": [
-    "Dheemanth JL",
-    "jmoni",
-    "2024-06-03",
-    "SPS Associate - CSAC"
-  ],
-  "jsravan": [
-    "Sravanraj P J",
-    "jpreeth",
-    "2017-02-13",
-    "SPS Associate - CSAC"
-  ],
-  "khusbrai": [
-    "Khusbu Rai",
-    "jpreeth",
-    "2014-06-02",
-    "SPS Associate - CSAC"
-  ],
-  "marshfma": [
-    "Marsha Mathai",
-    "jmoni",
-    "2024-06-03",
-    "SPS Associate - CSAC"
-  ],
-  "gangotri": [
-    "Gangotri Sut",
-    "jpreeth",
-    "2014-12-10",
-    "SPS Associate - CSAC"
-  ],
-  "ssabar": [
-    "Sabari Karthick",
-    "jpreeth",
-    "2016-06-20",
-    "SPS Associate - CSAC"
-  ],
-  "vkjadhav": [
-    "Vinod Kumar M Jadhav",
-    "summagan",
-    "2023-03-07",
-    "SPS Associate - CSAC"
-  ],
-  "savanoos": [
-    "Shridhar S Savanoor",
-    "jpreeth",
-    "2016-11-07",
-    "SPS Associate - CSAC"
-  ],
-  "sirajuls": [
-    "Sirajul Islam Sheikh",
-    "jpreeth",
-    "2016-01-25",
-    "SPS Associate - CSAC"
-  ],
-  "asanoo": [
-    "Sanoop V A",
-    "jpreeth",
-    "2019-08-12",
-    "SPS Associate - CSAC"
-  ],
-  "rikumari": [
-    "Ritika Kumari",
-    "jpreeth",
-    "2016-09-12",
+    "2022-08-01",
     "SPS Associate - CSAC"
   ],
   "vidhyk": [
@@ -911,11 +599,35 @@
     "2016-06-20",
     "SPS Associate - CSAC Mentor"
   ],
-  "sropa": [
-    "Roopa S",
+  "khusbrai": [
+    "Khusbu Rai",
     "jpreeth",
-    "2019-02-27",
-    "SPS Associate - CSAC Mentor"
+    "2014-06-02",
+    "SPS Associate - CSAC"
+  ],
+  "rikumari": [
+    "Ritika Kumari",
+    "jpreeth",
+    "2016-09-12",
+    "SPS Associate - CSAC"
+  ],
+  "savanoos": [
+    "Shridhar S Savanoor",
+    "jpreeth",
+    "2016-11-07",
+    "SPS Associate - CSAC"
+  ],
+  "jsravan": [
+    "Sravanraj P J",
+    "jpreeth",
+    "2017-02-13",
+    "SPS Associate - CSAC"
+  ],
+  "srism": [
+    "Sriramya Shanmugam",
+    "jpreeth",
+    "2017-02-13",
+    "SPS Associate - CSAC"
   ],
   "keteilek": [
     "Keteilekho Ziitso",
@@ -929,28 +641,22 @@
     "2019-02-27",
     "SPS Associate - CSAC"
   ],
-  "chramyam": [
-    "Ramya   M Choudhary",
+  "asanoo": [
+    "Sanoop V A",
     "jpreeth",
-    "2022-06-13",
+    "2019-08-12",
     "SPS Associate - CSAC"
   ],
-  "hshaikm": [
-    "Haseeb Shaik",
+  "ibennybe": [
+    "Benson Benny",
     "jpreeth",
-    "2022-08-22",
+    "2024-02-19",
     "SPS Associate - CSAC"
   ],
-  "sumabaig": [
-    "Sumair Baig",
+  "ggkvs": [
+    "Gayathri KVS",
     "jpreeth",
-    "2020-08-24",
-    "SPS Associate - CSAC"
-  ],
-  "snehabr": [
-    "Sneha Abraham",
-    "jpreeth",
-    "2024-06-17",
+    "2022-01-03",
     "SPS Associate - CSAC"
   ],
   "ttjasw": [
@@ -959,16 +665,64 @@
     "2021-05-10",
     "SPS Associate - CSAC"
   ],
-  "fresruth": [
-    "sruthi reddy",
+  "sropa": [
+    "Roopa S",
     "jpreeth",
-    "2022-05-23",
+    "2019-02-27",
+    "SPS Associate - CSAC Mentor"
+  ],
+  "sumabaig": [
+    "Sumair Baig",
+    "jpreeth",
+    "2020-08-24",
+    "SPS Associate - CSAC"
+  ],
+  "davedish": [
+    "DISHA DAVEY",
+    "jpreeth",
+    "2022-01-24",
     "SPS Associate - CSAC"
   ],
   "vhamidab": [
     "Ab Hamid",
     "jpreeth",
     "2022-08-22",
+    "SPS Associate - CSAC"
+  ],
+  "chramyam": [
+    "Ramya   M Choudhary",
+    "jpreeth",
+    "2022-06-13",
+    "SPS Associate - CSAC"
+  ],
+  "fresruth": [
+    "sruthi reddy",
+    "jpreeth",
+    "2022-05-23",
+    "SPS Associate - CSAC"
+  ],
+  "tonyfran": [
+    "Tony Francis D'souza",
+    "hemisas",
+    "2014-02-17",
+    "SPS Associate - CSAC"
+  ],
+  "hshaikm": [
+    "Haseeb Shaik",
+    "jpreeth",
+    "2022-08-22",
+    "SPS Associate - CSAC"
+  ],
+  "sachsmrk": [
+    "Sachin Kumar",
+    "jpreeth",
+    "2024-02-19",
+    "SPS Associate - CSAC"
+  ],
+  "saruhi": [
+    "Sarumathi B S",
+    "jpreeth",
+    "2024-02-19",
     "SPS Associate - CSAC"
   ],
   "javvadan": [
@@ -983,22 +737,16 @@
     "2024-02-19",
     "SPS Associate - CSAC"
   ],
-  "ggkvs": [
-    "Gayathri KVS",
-    "jpreeth",
-    "2022-01-03",
-    "SPS Associate - CSAC"
-  ],
-  "ibennybe": [
-    "Benson Benny",
+  "ujjwalvs": [
+    "Ujjwal Vats",
     "jpreeth",
     "2024-02-19",
     "SPS Associate - CSAC"
   ],
-  "tonyfran": [
-    "Tony Francis D'souza",
-    "hemisas",
-    "2014-02-17",
+  "snehabr": [
+    "Sneha Abraham",
+    "jpreeth",
+    "2024-06-17",
     "SPS Associate - CSAC"
   ],
   "shineyg": [
@@ -1007,53 +755,11 @@
     "2015-12-22",
     "SPS Associate - CSAC"
   ],
-  "leelavan": [
-    "Leelavathi N",
+  "sinhsham": [
+    "Shambhavi Sinha",
     "hemisas",
-    "2016-06-20",
+    "2017-09-04",
     "SPS Associate - Mentor"
-  ],
-  "saruhi": [
-    "Sarumathi B S",
-    "jpreeth",
-    "2024-02-19",
-    "SPS Associate - CSAC"
-  ],
-  "srism": [
-    "Sriramya Shanmugam",
-    "jpreeth",
-    "2017-02-13",
-    "SPS Associate - CSAC"
-  ],
-  "kreshma": [
-    "Reshma Kouser",
-    "hemisas",
-    "2018-10-08",
-    "SPS Associate - CSAC"
-  ],
-  "sachsmrk": [
-    "Sachin Kumar",
-    "jpreeth",
-    "2024-02-19",
-    "SPS Associate - CSAC"
-  ],
-  "jenatapa": [
-    "tapan jena",
-    "hemisas",
-    "2020-08-10",
-    "SPS Associate - CSAC"
-  ],
-  "anuhegde": [
-    "Anusha Hegde",
-    "hemisas",
-    "2017-05-03",
-    "SPS Associate - CSAC"
-  ],
-  "ujjwalvs": [
-    "Ujjwal Vats",
-    "jpreeth",
-    "2024-02-19",
-    "SPS Associate - CSAC"
   ],
   "creddiar": [
     "Chitradevi Subiramaniyam Reddiar",
@@ -1061,22 +767,16 @@
     "2017-02-13",
     "SPS Associate - CSAC"
   ],
-  "sinhsham": [
-    "Shambhavi Sinha",
+  "leelavan": [
+    "Leelavathi N",
     "hemisas",
-    "2017-09-04",
+    "2016-06-20",
     "SPS Associate - Mentor"
   ],
-  "davedish": [
-    "DISHA DAVEY",
-    "jpreeth",
-    "2022-01-24",
-    "SPS Associate - CSAC"
-  ],
-  "ronyjame": [
-    "Rony James",
-    "hemisas",
-    "2020-08-24",
+  "uramsri": [
+    "Srimathi Uthirapathi",
+    "vemuln",
+    "2024-06-03",
     "SPS Associate - CSAC"
   ],
   "bkarish": [
@@ -1085,22 +785,352 @@
     "2022-01-03",
     "SPS Associate - CSAC"
   ],
-  "baloribu": [
-    "Ribuksh Baloria",
-    "hemisas",
-    "2022-01-03",
+  "satxsama": [
+    "Satyajit Samal",
+    "vemuln",
+    "2024-06-03",
     "SPS Associate - CSAC"
   ],
-  "bhargarj": [
-    "Bhargavi R",
-    "hemisas",
-    "2022-01-03",
+  "jpnithi": [
+    "Nithin J",
+    "vemuln",
+    "2024-06-03",
     "SPS Associate - CSAC"
   ],
   "seemaysg": [
     "Seema Rao",
     "hemisas",
     "2021-06-07",
+    "SPS Associate - CSAC"
+  ],
+  "anuhegde": [
+    "Anusha Hegde",
+    "hemisas",
+    "2017-05-03",
+    "SPS Associate - CSAC"
+  ],
+  "chharich": [
+    "Harichandana Chilakala",
+    "vemuln",
+    "2024-06-03",
+    "SPS Associate - CSAC"
+  ],
+  "jenatapa": [
+    "tapan jena",
+    "hemisas",
+    "2020-08-10",
+    "SPS Associate - CSAC"
+  ],
+  "keeruu": [
+    "Keerthana M",
+    "vemuln",
+    "2024-06-03",
+    "SPS Associate - CSAC"
+  ],
+  "kgachary": [
+    "Krishan Acharya",
+    "vemuln",
+    "2024-06-03",
+    "SPS Associate - CSAC"
+  ],
+  "dishnav": [
+    "Dishna V",
+    "vemuln",
+    "2024-06-03",
+    "SPS Associate - CSAC"
+  ],
+  "jayantmp": [
+    "Jayanthkumar Mp",
+    "vemuln",
+    "2024-06-03",
+    "SPS Associate - CSAC"
+  ],
+  "nishask": [
+    "Nisha Kumari",
+    "vemuln",
+    "2024-06-03",
+    "SPS Associate - CSAC"
+  ],
+  "nkshshk": [
+    "Shashank Naik",
+    "vemuln",
+    "2024-06-03",
+    "SPS Associate - CSAC"
+  ],
+  "ronyjame": [
+    "Rony James",
+    "hemisas",
+    "2020-08-24",
+    "SPS Associate - CSAC"
+  ],
+  "kyvarun": [
+    "Varun Kumar m",
+    "vemuln",
+    "2024-06-03",
+    "SPS Associate - CSAC"
+  ],
+  "kreshma": [
+    "Reshma Kouser",
+    "hemisas",
+    "2018-10-08",
+    "SPS Associate - CSAC"
+  ],
+  "susinand": [
+    "SUSILA NANDAVARAPU",
+    "vemuln",
+    "2024-06-03",
+    "SPS Associate - CSAC"
+  ],
+  "apookoni": [
+    "Apoorva Koni",
+    "girishd",
+    "2019-02-27",
+    "SPS Associate - CSAC"
+  ],
+  "ssrany": [
+    "Saranya Vasanth",
+    "girishd",
+    "2023-07-31",
+    "SPS Associate"
+  ],
+  "swaropme": [
+    "Swaroop ME",
+    "vemuln",
+    "2024-06-03",
+    "SPS Associate - CSAC"
+  ],
+  "sprondla": [
+    "Spandana Rondla",
+    "vemuln",
+    "2024-06-03",
+    "SPS Associate - CSAC"
+  ],
+  "kpkalya": [
+    "Kalyan Babu K.P",
+    "girishd",
+    "2020-04-13",
+    "SPS Associate - Mentor"
+  ],
+  "arshzjas": [
+    "Arsha Jasmine",
+    "girishd",
+    "2021-06-21",
+    "SPS Associate - CSAC"
+  ],
+  "obinen": [
+    "obineni Honey",
+    "girishd",
+    "2017-10-30",
+    "SPS Associate - CSAC"
+  ],
+  "kanimozr": [
+    "Kanimozhi Rathinam",
+    "girishd",
+    "2020-04-13",
+    "SPS Associate - Mentor"
+  ],
+  "klogs": [
+    "Logesh .",
+    "girishd",
+    "2021-06-21",
+    "SPS Associate - CSAC"
+  ],
+  "arunmozs": [
+    "ARUNMOZHI SANKAR",
+    "girishd",
+    "2021-06-21",
+    "SPS Associate - CSAC"
+  ],
+  "stafridh": [
+    "Afridhi baig S",
+    "girishd",
+    "2021-06-21",
+    "SPS Associate - CSAC"
+  ],
+  "faiaza": [
+    "Faiaz Ahmed",
+    "girishd",
+    "2021-03-22",
+    "SPS Associate"
+  ],
+  "uharitha": [
+    "Haritha Vinod",
+    "girishd",
+    "2021-06-21",
+    "SPS Associate - CSAC"
+  ],
+  "sindhheg": [
+    "Sindhu Hegade M",
+    "hemisas",
+    "2022-08-22",
+    "SPS Associate - CSAC"
+  ],
+  "tyaschau": [
+    "Yashvant Chaudhary",
+    "hemisas",
+    "2022-05-23",
+    "SPS Associate - CSAC"
+  ],
+  "niashrab": [
+    "Nihar Ashraf",
+    "girishd",
+    "2021-06-21",
+    "SPS Associate - CSAC"
+  ],
+  "qtsantho": [
+    "Santhosh Srinivasulu",
+    "girishd",
+    "2021-06-21",
+    "SPS Associate - CSAC"
+  ],
+  "johnabrk": [
+    "Paul John Abrao",
+    "girishd",
+    "2021-06-21",
+    "SPS Associate - CSAC"
+  ],
+  "rkalaich": [
+    "Ratheesh Manikandan Kalaichelvan",
+    "girishd",
+    "2021-06-21",
+    "SPS Associate - CSAC"
+  ],
+  "xsubhadi": [
+    "Subhadip Chuan",
+    "hemisas",
+    "2022-08-22",
+    "SPS Associate - CSAC"
+  ],
+  "deepafko": [
+    "Deepak Kore",
+    "hemisas",
+    "2022-08-22",
+    "SPS Associate - CSAC"
+  ],
+  "venkvidh": [
+    "Vidhyasagar Venkataramanan",
+    "girishd",
+    "2021-06-21",
+    "SPS Associate - CSAC"
+  ],
+  "ajitezhu": [
+    "Ajith Ezhumalai",
+    "girishd",
+    "2021-06-21",
+    "SPS Associate - CSAC"
+  ],
+  "nithsree": [
+    "Nithin Sreerang",
+    "hemisas",
+    "2024-02-19",
+    "SPS Associate - CSAC"
+  ],
+  "preesund": [
+    "Preetha Sundaresan",
+    "girishd",
+    "2021-06-21",
+    "SPS Associate - CSAC"
+  ],
+  "mmrahman": [
+    "Mohammed Suhail Rahman B",
+    "girishd",
+    "2021-12-13",
+    "SPS Associate"
+  ],
+  "rnishana": [
+    "Nishanth R",
+    "girishd",
+    "2021-06-21",
+    "SPS Associate - CSAC"
+  ],
+  "kirankuu": [
+    "Kiran Kumaar B",
+    "girishd",
+    "2021-06-21",
+    "SPS Associate - CSAC"
+  ],
+  "navyagu": [
+    "Navya Gubbala",
+    "girishd",
+    "2023-07-31",
+    "SPS Associate"
+  ],
+  "sreemraj": [
+    "Sreemathi Rajamurali",
+    "girishd",
+    "2023-07-31",
+    "SPS Associate"
+  ],
+  "ojsarava": [
+    "SARAVANAN J",
+    "girishd",
+    "2021-12-13",
+    "SPS Associate"
+  ],
+  "sjjavad": [
+    "Sai Siva Krishna Javadhi",
+    "girishd",
+    "2020-04-13",
+    "SPS Associate - Mentor"
+  ],
+  "fiyaash": [
+    "Shafiya banu",
+    "girishd",
+    "2023-07-31",
+    "SPS Associate"
+  ],
+  "msrinatm": [
+    "Srinath M",
+    "girishd",
+    "2021-12-13",
+    "SPS Associate"
+  ],
+  "thirutk": [
+    "Thiruvengadam Mohan",
+    "girishd",
+    "2023-07-31",
+    "SPS Associate"
+  ],
+  "wbharkum": [
+    "Bharath Kumaran B M",
+    "girishd",
+    "2021-12-13",
+    "SPS Associate"
+  ],
+  "marvsash": [
+    "Sasha Althea",
+    "girishd",
+    "2023-07-31",
+    "SPS Associate"
+  ],
+  "suvarnzs": [
+    "suvarna suresh",
+    "girishd",
+    "2023-07-31",
+    "SPS Associate"
+  ],
+  "shivzs": [
+    "shivali s",
+    "girishd",
+    "2023-07-31",
+    "SPS Associate"
+  ],
+  "rolalith": [
+    "ROOPA LALITHAMBICA MINDI",
+    "girishd",
+    "2023-07-31",
+    "SPS Associate"
+  ],
+  "harsedwa": [
+    "Harshitha Edward",
+    "hemisas",
+    "2022-01-03",
+    "SPS Associate - CSAC"
+  ],
+  "baloribu": [
+    "Ribuksh Baloria",
+    "hemisas",
+    "2022-01-03",
     "SPS Associate - CSAC"
   ],
   "budhraim": [
@@ -1115,46 +1145,70 @@
     "2022-08-22",
     "SPS Associate - CSAC"
   ],
-  "sumsalma": [
-    "Salma Sumaiya",
-    "hemisas",
-    "2022-06-13",
-    "SPS Associate - CSAC"
-  ],
   "ehggokul": [
     "Gokul H Gowda",
     "hemisas",
     "2022-07-04",
     "SPS Associate - CSAC"
   ],
-  "tyaschau": [
-    "Yashvant Chaudhary",
+  "sumsalma": [
+    "Salma Sumaiya",
     "hemisas",
-    "2022-05-23",
-    "SPS Associate - CSAC"
-  ],
-  "sindhheg": [
-    "Sindhu Hegade M",
-    "hemisas",
-    "2022-08-22",
-    "SPS Associate - CSAC"
-  ],
-  "nithsree": [
-    "Nithin Sreerang",
-    "hemisas",
-    "2024-02-19",
-    "SPS Associate - CSAC"
-  ],
-  "deepafko": [
-    "Deepak Kore",
-    "hemisas",
-    "2022-08-22",
+    "2022-06-13",
     "SPS Associate - CSAC"
   ],
   "icharank": [
     "Charan K",
     "hemisas",
     "2022-08-22",
+    "SPS Associate - CSAC"
+  ],
+  "nitepate": [
+    "Nitesh Kumar Patel",
+    "vemuln",
+    "2016-09-12",
+    "SPS Associate - CSAC - Mentor"
+  ],
+  "vidhsm": [
+    "Vidhyashree M",
+    "vemuln",
+    "2024-06-03",
+    "SPS Associate - CSAC"
+  ],
+  "pravsapr": [
+    "Pravallika Alivelu",
+    "hemisas",
+    "2024-02-19",
+    "SPS Associate - CSAC"
+  ],
+  "bhargarj": [
+    "Bhargavi R",
+    "hemisas",
+    "2022-01-03",
+    "SPS Associate - CSAC"
+  ],
+  "asipuom": [
+    "Omssi Asipu",
+    "vemuln",
+    "2024-06-03",
+    "SPS Associate - CSAC"
+  ],
+  "cpradeel": [
+    "Pradeep Chinthaparthi",
+    "vemuln",
+    "2024-06-03",
+    "SPS Associate - CSAC"
+  ],
+  "renukadg": [
+    "Renuka Devara",
+    "vemuln",
+    "2024-06-03",
+    "SPS Associate - CSAC"
+  ],
+  "cskaveri": [
+    "Kaveri C S",
+    "vemuln",
+    "2024-06-03",
     "SPS Associate - CSAC"
   ],
   "kumakanu": [
@@ -1175,20 +1229,38 @@
     "2024-02-19",
     "SPS Associate - CSAC"
   ],
-  "xsubhadi": [
-    "Subhadip Chuan",
-    "hemisas",
-    "2022-08-22",
+  "djravi": [
+    "Ravi D",
+    "vemuln",
+    "2024-06-03",
     "SPS Associate - CSAC"
   ],
-  "pravsapr": [
-    "Pravallika Alivelu",
-    "hemisas",
-    "2024-02-19",
+  "jeejeevi": [
+    "Jeevitha Jeevitha",
+    "vemuln",
+    "2024-06-03",
     "SPS Associate - CSAC"
   ],
-  "vidhsm": [
-    "Vidhyashree M",
+  "komgadag": [
+    "Komal Gadag",
+    "vemuln",
+    "2024-06-03",
+    "SPS Associate - CSAC"
+  ],
+  "poojamra": [
+    "Poojarani L M",
+    "vemuln",
+    "2024-06-03",
+    "SPS Associate - CSAC"
+  ],
+  "ranaznaz": [
+    "Ranaz Naz",
+    "vemuln",
+    "2024-06-03",
+    "SPS Associate - CSAC"
+  ],
+  "akannot": [
+    "Akanksha Akanksha",
     "vemuln",
     "2024-06-03",
     "SPS Associate - CSAC"
@@ -1199,112 +1271,28 @@
     "2024-06-03",
     "SPS Associate - CSAC"
   ],
-  "asipuom": [
-    "Omssi Asipu",
+  "hikarthi": [
+    "Karthik H S",
     "vemuln",
     "2024-06-03",
     "SPS Associate - CSAC"
   ],
-  "nitepate": [
-    "Nitesh Kumar Patel",
-    "vemuln",
-    "2016-09-12",
-    "SPS Associate - CSAC - Mentor"
-  ],
-  "rauabhin": [
-    "Abhinav Mathur",
-    "hemisas",
-    "2024-06-17",
-    "SPS Associate - CSAC"
-  ],
-  "renukadg": [
-    "Renuka Devara",
+  "rahulsdv": [
+    "Rahul S",
     "vemuln",
     "2024-06-03",
     "SPS Associate - CSAC"
   ],
-  "cpradeel": [
-    "Pradeep Chinthaparthi",
+  "joashwin": [
+    "Ashwin Joseph",
+    "vemuln",
+    "2018-09-12",
+    "SPS Associate - CSAC"
+  ],
+  "shubhrk": [
+    "SHUBHAM KUMAR",
     "vemuln",
     "2024-06-03",
-    "SPS Associate - CSAC"
-  ],
-  "omkarom": [
-    "Omkar Nath",
-    "rincraju",
-    "2024-04-29",
-    "SPS Associate - CSAC"
-  ],
-  "sashixk": [
-    "Sashidhar Kanike",
-    "rincraju",
-    "2024-06-17",
-    "SPS Associate - CSAC"
-  ],
-  "shwethg": [
-    "Shwetha G",
-    "rincraju",
-    "2024-06-17",
-    "SPS Associate - CSAC"
-  ],
-  "ddeksha": [
-    "Deeksha Deeksha",
-    "rincraju",
-    "2021-05-17",
-    "SPS Associate - CSAC"
-  ],
-  "pragathf": [
-    "Pragatheshwaran N",
-    "rincraju",
-    "2024-04-29",
-    "SPS Associate - CSAC"
-  ],
-  "fiyaash": [
-    "Shafiya banu",
-    "girishd",
-    "2023-07-31",
-    "SPS Associate"
-  ],
-  "rkvs": [
-    "Ritesh Kumar",
-    "rincraju",
-    "2024-04-29",
-    "SPS Associate - CSAC"
-  ],
-  "sandydev": [
-    "Sandesh Devarushi",
-    "rincraju",
-    "2024-06-17",
-    "SPS Associate - CSAC"
-  ],
-  "saammyy": [
-    "POTLA SAMYUKTHA",
-    "rincraju",
-    "2024-04-29",
-    "SPS Associate - CSAC"
-  ],
-  "niranzan": [
-    "Niranjan Angadi",
-    "rincraju",
-    "2024-04-29",
-    "SPS Associate - CSAC"
-  ],
-  "afret": [
-    "Afreen Taj",
-    "rincraju",
-    "2021-05-10",
-    "SPS Associate - CSAC"
-  ],
-  "nkshshk": [
-    "Shashank Naik",
-    "vemuln",
-    "2024-06-03",
-    "SPS Associate - CSAC"
-  ],
-  "sswra": [
-    "Swaraj S",
-    "rincraju",
-    "2021-05-10",
     "SPS Associate - CSAC"
   ]
 }
